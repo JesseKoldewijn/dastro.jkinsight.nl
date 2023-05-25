@@ -47,5 +47,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "dastro"
-          entrypoint: "dist/server/entry.mjs" # 📝 Update the entrypoint
-          root: "."
+          entrypoint: "server/entry.mjs" # 📝 Update the entrypoint
+          root: "./dist"
